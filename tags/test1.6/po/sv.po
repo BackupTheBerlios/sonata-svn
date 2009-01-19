@@ -1,0 +1,1608 @@
+# Swedish translation for sonata.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the sonata package.
+# Daniel Nylander <po@danielnylander.se>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sonata\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-28 17:46-0700\n"
+"PO-Revision-Date: 2008-05-01 14:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: /home/fredrik/Saker/sonata-svn/sonata\n"
+"X-Poedit-SearchPath-0: /home/fredrik/Saker/sonata-svn/sonata\n"
+
+#. define the shortcuts and their descriptions
+#. these are all gettextable
+#: .././sonata/about.py:51
+msgid "About Sonata"
+msgstr "Om Sonata"
+
+#: .././sonata/about.py:52 .././sonata/preferences.py:68
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: .././sonata/about.py:53
+msgid "Fullscreen Artwork Mode"
+msgstr ""
+
+#: .././sonata/about.py:54
+msgid "Switch to [1st-5th] tab"
+msgstr "Växla mellan tabbarna [1-5]"
+
+#: .././sonata/about.py:55
+msgid "Connect to MPD"
+msgstr "Anslut till MPD"
+
+#: .././sonata/about.py:56
+msgid "Disconnect from MPD"
+msgstr "Koppla från MPD"
+
+#: .././sonata/about.py:57
+msgid "Randomize current playlist"
+msgstr "Sortera aktuell spellista slumpmässigt"
+
+#: .././sonata/about.py:58
+msgid "Expand player"
+msgstr "Fäll ut spelaren"
+
+#: .././sonata/about.py:59
+msgid "Switch to previous tab"
+msgstr "Växla till föregående tabb"
+
+#: .././sonata/about.py:60
+msgid "Switch to next tab"
+msgstr "Växla till nästa tabb"
+
+#: .././sonata/about.py:61
+msgid "Collapse player"
+msgstr "Fäll in spelaren"
+
+#: .././sonata/about.py:62
+msgid "Search library"
+msgstr "Sök i biblioteket"
+
+#: .././sonata/about.py:63
+msgid "Quit"
+msgstr "Avsluta"
+
+#: .././sonata/about.py:64
+msgid "Update entire library"
+msgstr "Uppdatera hela biblioteket"
+
+#: .././sonata/about.py:65
+msgid "Display popup menu"
+msgstr "Visa popupmeny"
+
+#: .././sonata/about.py:66
+msgid "Minimize to system tray (if enabled)"
+msgstr "Minimera till meddelandefält (om aktiverad)"
+
+#: .././sonata/about.py:68
+msgid "Previous track"
+msgstr "Föregående spår"
+
+#: .././sonata/about.py:69
+msgid "Next track"
+msgstr "Nästa spår"
+
+#: .././sonata/about.py:70
+msgid "Play/Pause"
+msgstr "Spela upp/Gör paus"
+
+#: .././sonata/about.py:71
+msgid "Stop"
+msgstr "Stoppa"
+
+#: .././sonata/about.py:72
+msgid "Lower the volume"
+msgstr "Sänk volymen"
+
+#: .././sonata/about.py:73
+msgid "Raise the volume"
+msgstr "Höj volymen"
+
+#: .././sonata/about.py:75
+msgid "Play selected song"
+msgstr "Spela vald låt"
+
+#: .././sonata/about.py:76
+msgid "Remove selected song(s)"
+msgstr "Ta bort markerade låt(ar)"
+
+#: .././sonata/about.py:77
+msgid "Center currently playing song"
+msgstr "Centrera låten som spelas"
+
+#: .././sonata/about.py:78 .././sonata/about.py:87
+msgid "Edit selected song's tags"
+msgstr "Redigera taggar för vald låt"
+
+#: .././sonata/about.py:79
+msgid "Save to new playlist"
+msgstr "Spara som ny spellista"
+
+#: .././sonata/about.py:80
+msgid "Clear list"
+msgstr "Töm lista"
+
+#: .././sonata/about.py:81
+msgid "Randomize list"
+msgstr "Sortera spellistan slumpmässigt"
+
+#: .././sonata/about.py:83
+msgid "Add selected song(s) or enter directory"
+msgstr "Lägg till markerade låt(ar) eller ange katalog"
+
+#: .././sonata/about.py:84
+msgid "Go to parent directory"
+msgstr "Gå till föräldrakatalogen"
+
+#: .././sonata/about.py:85
+msgid "Add selected item(s)"
+msgstr "Lägg till markerade poster"
+
+#: .././sonata/about.py:86
+msgid "Replace with selected item(s)"
+msgstr "Ersätt med markerade poster"
+
+#: .././sonata/about.py:88
+msgid "Add selected item(s) and play"
+msgstr "Lägg till markerade poster och spela upp"
+
+#: .././sonata/about.py:89
+msgid "Replace with selected item(s) and play"
+msgstr "Ersätt med markerade poster och spela upp"
+
+#: .././sonata/about.py:90
+#, fuzzy
+msgid "Update selected item(s)/path(s)"
+msgstr "Lägg till markerade poster"
+
+#: .././sonata/about.py:92 .././sonata/about.py:94
+msgid "Add selected playlist(s)"
+msgstr "Lägg till markerade spellistor"
+
+#: .././sonata/about.py:93
+msgid "Remove selected playlist(s)"
+msgstr "Ta bort markerade spellistor"
+
+#: .././sonata/about.py:95
+msgid "Replace with selected playlist(s)"
+msgstr "Ersätt med markerade spellistor"
+
+#: .././sonata/about.py:96
+msgid "Add selected playlist(s) and play"
+msgstr "Lägg till markerade spellistor och spela upp"
+
+#: .././sonata/about.py:97
+msgid "Replace with selected playlist(s) and play"
+msgstr "Ersätt med markerade spellistor och spela upp"
+
+#: .././sonata/about.py:99 .././sonata/about.py:101
+msgid "Add selected stream(s)"
+msgstr "Lägg till markerade ström(mar)"
+
+#: .././sonata/about.py:100
+msgid "Remove selected stream(s)"
+msgstr "Ta bort markerade ström(mar)"
+
+#: .././sonata/about.py:102
+msgid "Replace with selected stream(s)"
+msgstr "Ersätt med markerade ström(mar)"
+
+#: .././sonata/about.py:103
+msgid "Add selected stream(s) and play"
+msgstr "Lägg till markerade ström(mar) och spela upp"
+
+#: .././sonata/about.py:104
+msgid "Replace with selected stream(s) and play"
+msgstr "Ersätt med markerade ström(mar) och spela upp"
+
+#: .././sonata/about.py:106
+msgid "Edit playing song's tags"
+msgstr "Redigera taggar för aktuell låt"
+
+#. define the main array- this adds headings to each section of
+#. shortcuts that will be displayed
+#: .././sonata/about.py:109
+msgid "Main Shortcuts"
+msgstr "Allmänna genvägar"
+
+#: .././sonata/about.py:110
+msgid "Playback Shortcuts"
+msgstr "Uppspelningsgenvägar"
+
+#: .././sonata/about.py:111
+msgid "Current Shortcuts"
+msgstr "Aktuella genvägar"
+
+#: .././sonata/about.py:112
+msgid "Library Shortcuts"
+msgstr "Biblioteksgenvägar"
+
+#: .././sonata/about.py:113
+msgid "Playlist Shortcuts"
+msgstr "Spellistegenvägar"
+
+#: .././sonata/about.py:114
+msgid "Stream Shortcuts"
+msgstr "Strömgenvägar"
+
+#: .././sonata/about.py:115
+msgid "Info Shortcuts"
+msgstr "Låtinformationsgenvägar"
+
+#: .././sonata/about.py:116
+msgid "Shortcuts"
+msgstr "Genvägar"
+
+#: .././sonata/about.py:152
+msgid "An elegant music client for MPD."
+msgstr "En elegant musikklient för MPD."
+
+#. Add button to show keybindings:
+#: .././sonata/about.py:165
+msgid "_Shortcuts"
+msgstr "_Genvägar"
+
+#: .././sonata/current.py:66
+msgid "Filter"
+msgstr "Filter"
+
+#. Song info
+#: .././sonata/info.py:82
+msgid "Song Info"
+msgstr "Låtinformation"
+
+#: .././sonata/info.py:95 .././sonata/info.py:249 .././sonata/library.py:71
+#: .././sonata/main.py:1055 .././sonata/tagedit.py:105
+msgid "Title"
+msgstr "Titel"
+
+#: .././sonata/info.py:95 .././sonata/info.py:250 .././sonata/library.py:71
+#: .././sonata/main.py:603 .././sonata/main.py:1056 .././sonata/main.py:1424
+#: .././sonata/tagedit.py:114
+msgid "Artist"
+msgstr "Artist"
+
+#: .././sonata/info.py:95 .././sonata/info.py:251 .././sonata/library.py:71
+#: .././sonata/main.py:605 .././sonata/main.py:1057 .././sonata/main.py:1425
+#: .././sonata/main.py:2638 .././sonata/tagedit.py:123
+msgid "Album"
+msgstr "Album"
+
+#: .././sonata/info.py:95 .././sonata/info.py:252 .././sonata/main.py:1058
+msgid "Date"
+msgstr "Datum"
+
+#: .././sonata/info.py:95 .././sonata/info.py:254 .././sonata/main.py:1059
+#: .././sonata/main.py:1426 .././sonata/tagedit.py:136
+msgid "Track"
+msgstr "Spår"
+
+#: .././sonata/info.py:95 .././sonata/info.py:253 .././sonata/library.py:71
+#: .././sonata/main.py:604 .././sonata/main.py:1060 .././sonata/main.py:1429
+#: .././sonata/preferences.py:399 .././sonata/tagedit.py:153
+msgid "Genre"
+msgstr "Genre"
+
+#: .././sonata/info.py:95 .././sonata/info.py:255 .././sonata/main.py:1061
+#: .././sonata/main.py:1430
+msgid "File"
+msgstr "Fil"
+
+#: .././sonata/info.py:95 .././sonata/info.py:248 .././sonata/main.py:1069
+msgid "Bitrate"
+msgstr "Bithastighet"
+
+#: .././sonata/info.py:97
+msgid "Launch artist in Wikipedia"
+msgstr "Öppna artisten i Wikipedia"
+
+#: .././sonata/info.py:97
+msgid "Launch album in Wikipedia"
+msgstr "Öppna albumet i Wikipedia"
+
+#: .././sonata/info.py:131
+msgid "Toggle extra tags"
+msgstr "Växla mellan extra taggar"
+
+#: .././sonata/info.py:134
+msgid "Edit song tags"
+msgstr "Redigera låttaggar"
+
+#. Lyrics
+#: .././sonata/info.py:144
+msgid "Lyrics"
+msgstr "Låttext"
+
+#: .././sonata/info.py:156
+msgid "Search Lyricwiki.org for lyrics"
+msgstr "Sök efter låttext via Lyricwiki.org"
+
+#: .././sonata/info.py:157
+msgid "Edit lyrics at Lyricwiki.org"
+msgstr ""
+
+#. Album info
+#: .././sonata/info.py:165
+msgid "Album Info"
+msgstr "Albuminformation"
+
+#: .././sonata/info.py:217 .././sonata/info.py:222
+msgid "more"
+msgstr "mer information"
+
+#: .././sonata/info.py:219
+msgid "hide"
+msgstr "dölj"
+
+#: .././sonata/info.py:285
+msgid "edit tags"
+msgstr "Redigera taggar"
+
+#: .././sonata/info.py:311
+msgid "Album info not found."
+msgstr "Albuminformation ej funnen."
+
+#: .././sonata/info.py:314
+msgid "Album name not set."
+msgstr "Albumnamnet inte inställt."
+
+#: .././sonata/info.py:327
+msgid "ZSI not found, fetching lyrics support disabled."
+msgstr "ZSI hittades inte, stöd för hämtning av låttexter har inaktiverats."
+
+#: .././sonata/info.py:332
+msgid "Artist or song title not set."
+msgstr "Artist- eller låttitel inte inställd."
+
+#: .././sonata/info.py:362
+msgid "search"
+msgstr "Sök"
+
+#: .././sonata/info.py:363
+#, fuzzy
+msgid "edit"
+msgstr "Redigera taggar"
+
+#: .././sonata/info.py:372 .././sonata/info.py:427
+msgid "Lyrics not found"
+msgstr "Låttexten hittades inte"
+
+#. Fetch lyrics from lyricwiki.org
+#: .././sonata/info.py:392
+msgid "Fetching lyrics..."
+msgstr "Hämtar låttexter..."
+
+#: .././sonata/info.py:402
+msgid "Couldn't connect to LyricWiki"
+msgstr "Kunde inte ansluta till LyricWiki"
+
+#: .././sonata/info.py:430
+msgid "Fetching lyrics failed"
+msgstr "Hämtning av låttexter misslyckades"
+
+#: .././sonata/library.py:69
+msgid "Untagged"
+msgstr "Ej taggad"
+
+#: .././sonata/library.py:70
+msgid "Various Artists"
+msgstr "Diverse artister"
+
+#: .././sonata/library.py:71
+msgid "Filename"
+msgstr "Filnamn"
+
+#: .././sonata/library.py:71
+msgid "Everything"
+msgstr "Allting"
+
+#: .././sonata/library.py:102
+msgid "_End Search"
+msgstr "A_vsluta sökning"
+
+#: .././sonata/library.py:106
+msgid "Library browsing view"
+msgstr "Biblioteksbläddringsvy"
+
+#. Show text:
+#: .././sonata/library.py:709 .././sonata/main.py:1991
+#: .././sonata/main.py:3559
+msgid "song"
+msgid_plural "songs"
+msgstr[0] "låt"
+msgstr[1] "låtar"
+
+#: .././sonata/library.py:709 .././sonata/main.py:1985
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minut"
+msgstr[1] "minuter"
+
+#: .././sonata/library.py:792
+#, fuzzy
+msgid "Song"
+msgstr "låt"
+
+#: .././sonata/library.py:792
+msgid "Path"
+msgstr "Sökväg"
+
+#: .././sonata/main.py:191 .././sonata/main.py:214
+msgid "Default Profile"
+msgstr "Standardprofil"
+
+#. Constants
+#: .././sonata/main.py:200
+msgid "Current"
+msgstr "Aktuell"
+
+#: .././sonata/main.py:201
+msgid "Library"
+msgstr "Bibliotek"
+
+#: .././sonata/main.py:202
+msgid "Playlists"
+msgstr "Spellistor"
+
+#: .././sonata/main.py:203
+msgid "Streams"
+msgstr "Strömmar"
+
+#: .././sonata/main.py:204
+msgid "Info"
+msgstr "Låtinformation"
+
+#: .././sonata/main.py:214
+msgid "by"
+msgstr "av"
+
+#: .././sonata/main.py:214
+msgid "from"
+msgstr "från"
+
+#: .././sonata/main.py:237
+msgid "The toggle argument requires D-Bus. Aborting."
+msgstr "Växlingsargumentet kräver D-Bus. Avbryter."
+
+#: .././sonata/main.py:243
+msgid "The popup argument requires D-Bus. Aborting."
+msgstr "Popupargumentet kräver D-Bus. Avbryter."
+
+#: .././sonata/main.py:283 .././sonata/preferences.py:195
+msgid "Entire song"
+msgstr "Hela låten"
+
+#: .././sonata/main.py:334
+msgid "Starting Sonata with profile"
+msgstr "Startar Sonata med profil"
+
+#: .././sonata/main.py:336 .././sonata/main.py:338
+msgid "Not a valid profile number. Profile number must be between 1 and"
+msgstr "Inte ett giltigt profilnummer. Profilnummer måste vara mellan 1 och"
+
+#: .././sonata/main.py:382
+msgid "_Sort List"
+msgstr "_Sortera lista"
+
+#: .././sonata/main.py:383
+msgid "Sa_ve List to"
+msgstr "Sp_ara spellista till"
+
+#: .././sonata/main.py:384
+msgid "_Connection"
+msgstr "_Anslutning"
+
+#: .././sonata/main.py:385
+msgid "P_lay after"
+msgstr "_Spela efter"
+
+#: .././sonata/main.py:386
+msgid "Use _Remote Image..."
+msgstr "Använd _fjärrbild..."
+
+#: .././sonata/main.py:387
+msgid "Use _Local Image..."
+msgstr "Använd _lokal bild..."
+
+#: .././sonata/main.py:388
+msgid "_Fullscreen Mode"
+msgstr ""
+
+#: .././sonata/main.py:389
+#, fuzzy
+msgid "Reset Image"
+msgstr "Öppna bild"
+
+#: .././sonata/main.py:390
+msgid "_Play"
+msgstr "_Spela"
+
+#: .././sonata/main.py:391
+msgid "_Pause"
+msgstr "_Gör paus"
+
+#: .././sonata/main.py:392
+msgid "_Stop"
+msgstr "_Stoppa"
+
+#: .././sonata/main.py:393
+msgid "_Previous"
+msgstr "_Föregående"
+
+#: .././sonata/main.py:394
+msgid "_Next"
+msgstr "_Nästa"
+
+#: .././sonata/main.py:395
+msgid "_Quit"
+msgstr "_Avsluta"
+
+#: .././sonata/main.py:396
+msgid "_Remove"
+msgstr "_Ta bort"
+
+#: .././sonata/main.py:397
+msgid "_Clear"
+msgstr "Tö_m"
+
+#: .././sonata/main.py:398
+#, fuzzy
+msgid "_Update Path"
+msgstr "Uppdatera"
+
+#: .././sonata/main.py:399
+msgid "_Preferences..."
+msgstr "_Inställningar..."
+
+#: .././sonata/main.py:400
+msgid "_About..."
+msgstr "_Om..."
+
+#: .././sonata/main.py:401
+msgid "_Edit Tags..."
+msgstr "R_edigera taggar..."
+
+#: .././sonata/main.py:402
+msgid "_Add"
+msgstr "_Lägg till"
+
+#: .././sonata/main.py:403
+msgid "_Replace"
+msgstr "E_rsätt"
+
+#: .././sonata/main.py:404
+msgid "Add"
+msgstr "_Lägg till"
+
+#: .././sonata/main.py:405
+msgid "Replace"
+msgstr "E_rsätt"
+
+#: .././sonata/main.py:406
+msgid "_Delete..."
+msgstr "_Ta bort..."
+
+#: .././sonata/main.py:407
+msgid "Shuffle"
+msgstr "Blanda"
+
+#: .././sonata/main.py:434
+msgid "_Show Sonata"
+msgstr "_Visa Sonata"
+
+#: .././sonata/main.py:435
+msgid "_Repeat"
+msgstr "_Upprepa"
+
+#: .././sonata/main.py:436
+msgid "Rando_m"
+msgstr "_Blanda"
+
+#: .././sonata/main.py:582
+msgid "By Artist"
+msgstr "Efter artist"
+
+#: .././sonata/main.py:583
+msgid "By Album"
+msgstr "Efter album"
+
+#: .././sonata/main.py:584
+msgid "By Song Title"
+msgstr "Efter låttitel"
+
+#: .././sonata/main.py:585
+msgid "By File Name"
+msgstr "Efter filnamn"
+
+#: .././sonata/main.py:586
+msgid "By Dir & File Name"
+msgstr "Efter katalog- och filnamn"
+
+#: .././sonata/main.py:587
+msgid "Reverse List"
+msgstr "Omvänd lista"
+
+#: .././sonata/main.py:602
+msgid "Filesystem"
+msgstr "Filsystem"
+
+#: .././sonata/main.py:635 .././sonata/main.py:653
+msgid "_New..."
+msgstr "_Ny..."
+
+#: .././sonata/main.py:636
+msgid "_Edit..."
+msgstr "R_edigera..."
+
+#: .././sonata/main.py:654
+msgid "_Rename..."
+msgstr "_Byt namn..."
+
+#: .././sonata/main.py:716 .././sonata/main.py:787 .././sonata/main.py:788
+msgid "Playlist"
+msgstr "Spellista"
+
+#: .././sonata/main.py:745 .././sonata/main.py:750 .././sonata/main.py:1080
+#: .././sonata/main.py:2061 .././sonata/main.py:2072
+msgid "Stopped"
+msgstr "Stoppad"
+
+#: .././sonata/main.py:746 .././sonata/main.py:2065 .././sonata/main.py:2272
+msgid "Click to expand"
+msgstr "Klicka för att fälla ut"
+
+#: .././sonata/main.py:751 .././sonata/main.py:2063 .././sonata/main.py:2270
+msgid "Click to collapse"
+msgstr "Klicka för att fälla in"
+
+#: .././sonata/main.py:756 .././sonata/main.py:1960 .././sonata/main.py:2068
+msgid "Not Connected"
+msgstr "Inte ansluten"
+
+#: .././sonata/main.py:758 .././sonata/main.py:1958 .././sonata/main.py:2070
+msgid "No Read Permission"
+msgstr "Saknar läsrättigheter"
+
+#: .././sonata/main.py:835
+#, fuzzy
+msgid "Cover Art"
+msgstr "_Omslagsbild"
+
+#: .././sonata/main.py:970
+msgid "Version: Sonata"
+msgstr "Version: Sonata"
+
+#: .././sonata/main.py:971
+msgid "Website: http://sonata.berlios.de/"
+msgstr "Webbplats: http://sonata.berlios.de/"
+
+#: .././sonata/main.py:976
+msgid "Usage: sonata [OPTION]"
+msgstr "Användning: sonata [FLAGGA]"
+
+#: .././sonata/main.py:978
+msgid "Options"
+msgstr "Flaggor"
+
+#: .././sonata/main.py:979
+msgid "Show this help and exit"
+msgstr "Visa den här hjälpen och avsluta"
+
+#: .././sonata/main.py:980
+msgid "Popup song notification (requires DBus)"
+msgstr "Popupnotifiering vid låtbyte (kräver DBus)"
+
+#: .././sonata/main.py:981
+msgid "Toggles whether the app is minimized"
+msgstr "Växlar huruvida programmet är minimerat"
+
+#: .././sonata/main.py:982
+msgid "to tray or visible (requires D-Bus)"
+msgstr "till brickan eller synligt (kräver D-Bus)"
+
+#: .././sonata/main.py:983
+msgid "Show version information and exit"
+msgstr "Visa versionsinformation och avsluta"
+
+#: .././sonata/main.py:984
+msgid "Start app hidden (requires systray)"
+msgstr "Starta programmet dolt (kräver systray)"
+
+#: .././sonata/main.py:985
+msgid "Start app visible (requires systray)"
+msgstr "Starta programmet synligt (kräver systray)"
+
+#: .././sonata/main.py:986
+msgid "Start with profile [NUM]"
+msgstr "Starta med profil [NUM]"
+
+#: .././sonata/main.py:987
+msgid "Play song in playlist"
+msgstr "Spela låt i spellistan"
+
+#: .././sonata/main.py:988
+msgid "Pause currently playing song"
+msgstr "Pausa för närvarande spelad låt"
+
+#: .././sonata/main.py:989
+msgid "Stop currently playing song"
+msgstr "Stoppa för närvarande spelad låt"
+
+#: .././sonata/main.py:990
+msgid "Play next song in playlist"
+msgstr "Spela nästa låt i spellistan"
+
+#: .././sonata/main.py:991
+msgid "Play previous song in playlist"
+msgstr "Spela föregående låt i spellistan"
+
+#: .././sonata/main.py:992
+msgid "Toggle play/pause; plays if stopped"
+msgstr "Växla spela/gör paus; spelar om stoppad"
+
+#: .././sonata/main.py:993
+msgid "Toggle repeat mode"
+msgstr "Växla upprepningsläge"
+
+#: .././sonata/main.py:994
+msgid "Toggle random mode"
+msgstr "Växla blandningsläge"
+
+#: .././sonata/main.py:995
+msgid "Display current song info"
+msgstr "Visa information om aktuell låt"
+
+#: .././sonata/main.py:996
+msgid "Display MPD status"
+msgstr "Visa MPD-status"
+
+#: .././sonata/main.py:1066 .././sonata/main.py:1068
+msgid "Time"
+msgstr "Tid"
+
+#: .././sonata/main.py:1071
+msgid "MPD stopped"
+msgstr "MPD stoppad"
+
+#: .././sonata/main.py:1076 .././sonata/main.py:1078 .././sonata/main.py:1080
+msgid "State"
+msgstr "Tillstånd"
+
+#: .././sonata/main.py:1076
+msgid "Playing"
+msgstr "Spelar"
+
+#: .././sonata/main.py:1078
+msgid "Paused"
+msgstr "Pausad"
+
+#: .././sonata/main.py:1082 .././sonata/main.py:1084
+msgid "Repeat"
+msgstr "Upprepa"
+
+#: .././sonata/main.py:1082 .././sonata/main.py:1086
+msgid "Off"
+msgstr "Av"
+
+#: .././sonata/main.py:1084 .././sonata/main.py:1088
+msgid "On"
+msgstr "På"
+
+#: .././sonata/main.py:1086 .././sonata/main.py:1088
+msgid "Random"
+msgstr "Blanda"
+
+#: .././sonata/main.py:1089
+msgid "Volume"
+msgstr "Volym"
+
+#: .././sonata/main.py:1090
+msgid "Crossfade"
+msgstr "Toning"
+
+#: .././sonata/main.py:1090 .././sonata/preferences.py:196
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "sekund"
+msgstr[1] "sekunder"
+
+#: .././sonata/main.py:1094
+msgid ""
+"Unable to connect to MPD.\n"
+"Please check your Sonata preferences or MPD_HOST/MPD_PORT environment "
+"variables."
+msgstr ""
+"Kunde inte ansluta till MPD.\n"
+"Kontrollera dina inställningar i Sonata eller miljövariablerna MPD_HOST/"
+"MPD_PORT."
+
+#: .././sonata/main.py:1097 .././sonata/main.py:1110 .././sonata/main.py:1131
+msgid "Profile"
+msgstr "Profil"
+
+#: .././sonata/main.py:1110 .././sonata/main.py:1111 .././sonata/main.py:1131
+msgid "MPD_HOST/PORT"
+msgstr "MPD_HOST/PORT"
+
+#: .././sonata/main.py:1112 .././sonata/main.py:1118
+msgid "Disconnect"
+msgstr "Koppla från"
+
+#: .././sonata/main.py:1427 .././sonata/main.py:1433
+msgid "#"
+msgstr "#"
+
+#: .././sonata/main.py:1428 .././sonata/preferences.py:398
+#: .././sonata/tagedit.py:132
+msgid "Year"
+msgstr "År"
+
+#: .././sonata/main.py:1431
+msgid "Stream"
+msgstr "Ström"
+
+#: .././sonata/main.py:1432
+msgid "Len"
+msgstr "Speltid"
+
+#: .././sonata/main.py:1453 .././sonata/main.py:1460 .././sonata/main.py:1501
+#: .././sonata/main.py:1508
+msgid "Unknown"
+msgstr "Okänd"
+
+#: .././sonata/main.py:1981
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dag"
+msgstr[1] "dagar"
+
+#: .././sonata/main.py:1989
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "timme"
+msgstr[1] "timmar"
+
+#: .././sonata/main.py:1994 .././sonata/main.py:1996
+msgid "and"
+msgstr "och"
+
+#: .././sonata/main.py:2004
+msgid "(updating mpd)"
+msgstr "(uppdaterar mpd)"
+
+#: .././sonata/main.py:2334
+msgid "Lyrics Search"
+msgstr "Sök låttext"
+
+#: .././sonata/main.py:2335
+msgid "_Search"
+msgstr "_Sök"
+
+#: .././sonata/main.py:2338
+msgid "Artist Name"
+msgstr "Artistnamn"
+
+#: .././sonata/main.py:2343
+msgid "Song Title"
+msgstr "Låttitel"
+
+#: .././sonata/main.py:2576
+msgid "Open Image"
+msgstr "Öppna bild"
+
+#: .././sonata/main.py:2578
+msgid "Images"
+msgstr "Bilder"
+
+#: .././sonata/main.py:2582
+msgid "All files"
+msgstr "Alla filer"
+
+#: .././sonata/main.py:2624
+msgid "Choose Cover Art"
+msgstr "Välj omslagsbild"
+
+#: .././sonata/main.py:2625
+msgid "C_hoose"
+msgstr "Välj"
+
+#: .././sonata/main.py:2653
+msgid "_Update"
+msgstr "Uppdatera"
+
+#: .././sonata/main.py:2658
+msgid "Edit search terms"
+msgstr "Redigera söktermer"
+
+#: .././sonata/main.py:2715
+msgid "No artist or album name found."
+msgstr "Inget artist- eller albumnamn hittades."
+
+#: .././sonata/main.py:2718
+msgid "No cover art found."
+msgstr "Ingen omslagsbild hittades."
+
+#: .././sonata/main.py:3040
+msgid "Delete the selected playlist?"
+msgid_plural "Delete the selected playlists?"
+msgstr[0] "Ta bort markerad spellista?"
+msgstr[1] "Ta bort markerade spellistor?"
+
+#: .././sonata/main.py:3040
+msgid "Delete Playlist"
+msgid_plural "Delete Playlists"
+msgstr[0] "Ta bort spellista"
+msgstr[1] "Ta bort spellistor"
+
+#: .././sonata/main.py:3048
+msgid "Delete the selected stream?"
+msgid_plural "Delete the selected streams?"
+msgstr[0] "Ta bort markerade strömmar?"
+msgstr[1] "Ta bort markerade strömmar?"
+
+#: .././sonata/main.py:3048
+msgid "Delete Stream"
+msgid_plural "Delete Streams"
+msgstr[0] "Ta bort ström"
+msgstr[1] "Ta bort strömmar"
+
+#: .././sonata/main.py:3109
+msgid ""
+"To save lyrics to the music file's directory, you must specify a valid music "
+"directory."
+msgstr ""
+"För att spara låttexten till musikfilens katalog så måste du ange en giltig "
+"musikkatalog."
+
+#: .././sonata/main.py:3109 .././sonata/main.py:3116
+msgid "Music Dir Verification"
+msgstr "Verifikation av musikkatalog"
+
+#: .././sonata/main.py:3116
+msgid ""
+"To save artwork to the music file's directory, you must specify a valid "
+"music directory."
+msgstr ""
+"För att spara omslag till musikfilens katalog så måste du ange en giltig "
+"musikkatalog."
+
+#: .././sonata/main.py:3560
+msgid "album"
+msgid_plural "albums"
+msgstr[0] "album"
+msgstr[1] "album"
+
+#: .././sonata/main.py:3561
+msgid "artist"
+msgid_plural "artists"
+msgstr[0] "artist"
+msgstr[1] "artister"
+
+#: .././sonata/main.py:3568
+msgid "day of bliss"
+msgid_plural "days of bliss"
+msgstr[0] "dag av fullständig lycka."
+msgstr[1] "dagar av fullständig lycka."
+
+#: .././sonata/main.py:3570
+msgid "hour of bliss"
+msgid_plural "hours of bliss"
+msgstr[0] "timme av fullständig lycka."
+msgstr[1] "timmar av fullständig lycka."
+
+#: .././sonata/main.py:3627
+msgid "An instance of Sonata is already running."
+msgstr "En instans av Sonata körs redan."
+
+#: .././sonata/main.py:3633
+msgid ""
+"Sonata failed to connect to the D-BUS session bus: Unable to determine the "
+"address of the message bus (try 'man dbus-launch' and 'man dbus-daemon' for "
+"help)"
+msgstr ""
+"Sonata misslyckades med att ansluta till D-BUS-sessionsbussen: Kunde inte "
+"fastställa adressen för meddelandebussen (prova med \"man dbus-launch\" och "
+"\"man dbus-daemon\" för hjälp)"
+
+#. FIXME no function ui.show_error_msg defined
+#: .././sonata/misc.py:205
+msgid "Unable to launch a suitable browser."
+msgstr "Kunde inte starta en lämplig webbläsare."
+
+#: .././sonata/misc.py:205
+msgid "Launch Browser"
+msgstr "Starta webbläsare"
+
+#: .././sonata/playlists.py:110 .././sonata/playlists.py:112
+msgid "Save Playlist"
+msgstr "Spara spellista"
+
+#: .././sonata/playlists.py:127
+msgid "Would you like to replace the existing playlist or append these songs?"
+msgstr ""
+"Vill du ersätta den existerande spellistan eller lägga till låtarna till "
+"listan?"
+
+#: .././sonata/playlists.py:127
+#, fuzzy
+msgid "Existing Playlist"
+msgstr "Spellista"
+
+#: .././sonata/playlists.py:127
+msgid "Replace playlist"
+msgstr "Ersätt spellista"
+
+#: .././sonata/playlists.py:127
+msgid "Append songs"
+msgstr "Lägg till låtar"
+
+#: .././sonata/playlists.py:148
+msgid "A playlist with this name already exists. Would you like to replace it?"
+msgstr "En spellista med det här namnet finns redan. Vill du ersätta den?"
+
+#: .././sonata/playlists.py:160
+msgid "Playlist name"
+msgstr "Spellistans namn"
+
+#: .././sonata/playlists.py:189 .././sonata/playlists.py:193
+msgid "Rename Playlist"
+msgstr "Byt namn på spellista"
+
+#. Constants:
+#: .././sonata/preferences.py:35
+msgid "System tray"
+msgstr "Meddelandefält"
+
+#: .././sonata/preferences.py:35
+msgid "Top Left"
+msgstr "Övre vänster"
+
+#: .././sonata/preferences.py:35
+msgid "Top Right"
+msgstr "Övre höger"
+
+#: .././sonata/preferences.py:35
+msgid "Bottom Left"
+msgstr "Nedre vänster"
+
+#: .././sonata/preferences.py:35
+msgid "Bottom Right"
+msgstr "Nedre höger"
+
+#: .././sonata/preferences.py:35
+msgid "Screen Center"
+msgstr "Mitten av skärmen"
+
+#. MPD tab
+#: .././sonata/preferences.py:72
+msgid "MPD Connection"
+msgstr "MPD-anslutning"
+
+#: .././sonata/preferences.py:82
+msgid "Name"
+msgstr "Namn"
+
+#: .././sonata/preferences.py:87
+msgid "Host"
+msgstr "Värd"
+
+#: .././sonata/preferences.py:92
+msgid "Port"
+msgstr "Port"
+
+#: .././sonata/preferences.py:97
+msgid "Music dir"
+msgstr "Musikkatalog"
+
+#: .././sonata/preferences.py:103
+msgid "Password"
+msgstr "Lösenord"
+
+#: .././sonata/preferences.py:106
+msgid "Leave blank if no password is required."
+msgstr "Lämna blank om inget lösenord krävs."
+
+#: .././sonata/preferences.py:110
+msgid "Autoconnect on start"
+msgstr "Anslut automatiskt vid uppstart"
+
+#: .././sonata/preferences.py:127
+msgid "Using MPD_HOST/PORT"
+msgstr "Använder MPD_HOST/PORT"
+
+#: .././sonata/preferences.py:168
+msgid "Extras"
+msgstr "Extrafunktioner"
+
+#: .././sonata/preferences.py:175
+msgid "Enable Audioscrobbler"
+msgstr "Aktivera Audioscrobbler"
+
+#: .././sonata/preferences.py:180
+msgid "Username:"
+msgstr "Användarnamn:"
+
+#: .././sonata/preferences.py:181
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: .././sonata/preferences.py:187
+msgid "Popup notification on song changes"
+msgstr "Popupnotifiering vid låtbyte"
+
+#: .././sonata/preferences.py:207
+msgid "Enable Crossfade"
+msgstr "Aktivera korstoning"
+
+#: .././sonata/preferences.py:215
+msgid "Fade length"
+msgstr "Toningslängd"
+
+#: .././sonata/preferences.py:216
+msgid "sec"
+msgstr "s"
+
+#: .././sonata/preferences.py:253
+msgid "Display"
+msgstr "Visa"
+
+#: .././sonata/preferences.py:255
+msgid "Enable album art"
+msgstr "Aktivera albumomslag"
+
+#: .././sonata/preferences.py:257
+msgid "Standard"
+msgstr "Standard"
+
+#: .././sonata/preferences.py:257
+msgid "Stylized"
+msgstr "Stiliserad"
+
+#: .././sonata/preferences.py:259
+msgid "Artwork style:"
+msgstr "Stil på omslagsbild:"
+
+#: .././sonata/preferences.py:262
+msgid "Local only"
+msgstr "Endast lokal"
+
+#: .././sonata/preferences.py:262
+#, fuzzy
+msgid "Local and remote"
+msgstr "Lokal sedan fjärr"
+
+#: .././sonata/preferences.py:263
+#, fuzzy
+msgid "Search locations:"
+msgstr "Sökordning:"
+
+#: .././sonata/preferences.py:268
+msgid "Save art to:"
+msgstr "Spara omslag till:"
+
+#: .././sonata/preferences.py:271
+msgid "custom"
+msgstr "anpassad"
+
+#: .././sonata/preferences.py:272 .././sonata/preferences.py:292
+msgid "file_path"
+msgstr "Filsökväg"
+
+#: .././sonata/preferences.py:278
+msgid "Enable playback/volume buttons"
+msgstr "Aktivera knappar för uppspelning/volym"
+
+#: .././sonata/preferences.py:281
+msgid "Enable progressbar"
+msgstr "Aktivera förloppsindikator"
+
+#: .././sonata/preferences.py:284
+msgid "Enable statusbar"
+msgstr "Aktivera statusrad"
+
+#: .././sonata/preferences.py:287
+msgid "Enable lyrics"
+msgstr "Aktivera låttexter"
+
+#: .././sonata/preferences.py:290
+msgid "Save lyrics to:"
+msgstr "Spara låttext till:"
+
+#: .././sonata/preferences.py:296
+msgid "Enable system tray icon"
+msgstr "Aktivera meddelandefältsikon"
+
+#: .././sonata/preferences.py:315
+msgid "Window Behavior"
+msgstr "Fönsterbeteende"
+
+#: .././sonata/preferences.py:316
+msgid "Show window on all workspaces"
+msgstr "Visa fönstret på alla arbetsytor"
+
+#: .././sonata/preferences.py:318
+msgid "Keep window above other windows"
+msgstr "Håll fönstret ovanför andra fönster"
+
+#: .././sonata/preferences.py:320
+msgid "Update MPD library on start"
+msgstr "Uppdatera MPD-biblioteket vid uppstart"
+
+#: .././sonata/preferences.py:322
+msgid ""
+"If enabled, Sonata will automatically update your MPD library when it starts "
+"up."
+msgstr ""
+"Om aktiverad kommer Sonata att automatiskt uppdatera ditt MPD-bibliotek när "
+"den startar upp."
+
+#: .././sonata/preferences.py:323
+msgid "Stop playback on exit"
+msgstr "Stoppa uppspelning vid avslut"
+
+#: .././sonata/preferences.py:325
+msgid ""
+"MPD allows playback even when the client is not open. If enabled, Sonata "
+"will behave like a more conventional music player and, instead, stop "
+"playback upon exit."
+msgstr ""
+"MPD tillåter uppspelning även när klienten inte är öppnad. Om aktiverad "
+"kommer Sonata att bete sig mer som en vanlig musikspelare och istället "
+"stoppa uppspelningen vid avslut."
+
+#: .././sonata/preferences.py:326
+msgid "Minimize to system tray on close/escape"
+msgstr "Minimera till meddelandefält vid stängning"
+
+#: .././sonata/preferences.py:328
+msgid ""
+"If enabled, closing Sonata will minimize it to the system tray. Note that "
+"it's currently impossible to detect if there actually is a system tray, so "
+"only check this if you have one."
+msgstr ""
+"Om aktiverad kommer en stängning av Sonata att minimera den till "
+"meddelandefältet. Observera att det för närvarande inte är möjligt att "
+"identifiera om det verkligen finns ett meddelandefält. Använd endast den här "
+"funktionen om du har ett meddelandefält."
+
+#: .././sonata/preferences.py:332
+msgid "Write status file:"
+msgstr "Skriv statusfil:"
+
+#: .././sonata/preferences.py:334 .././sonata/preferences.py:336
+msgid ""
+"If enabled, Sonata will create a xmms-infopipe like file containing "
+"information about the current song. Many applications support the xmms-info "
+"file (Instant Messengers, IRC Clients...)"
+msgstr ""
+"Om aktiverad kommer Sonata att skapa en xmms-infopipe-liknande fil som "
+"innehåller information om den aktuella låten. Många program har stöd för "
+"xmms-info-filer (snabbmeddelandeklienter, IRC-klienter...)"
+
+#: .././sonata/preferences.py:342
+msgid "Miscellaneous"
+msgstr "Diverse"
+
+#: .././sonata/preferences.py:364
+msgid "Song Formatting"
+msgstr "Låtformatering"
+
+#: .././sonata/preferences.py:366
+msgid "Current playlist:"
+msgstr "Aktuell spellista:"
+
+#: .././sonata/preferences.py:371
+msgid "Library:"
+msgstr "Bibliotek:"
+
+#: .././sonata/preferences.py:376
+msgid "Window title:"
+msgstr "Fönstertitel:"
+
+#: .././sonata/preferences.py:382
+msgid "Current song line 1:"
+msgstr "Aktuell låt rad 1:"
+
+#: .././sonata/preferences.py:387
+msgid "Current song line 2:"
+msgstr "Aktuell låt rad 2:"
+
+#: .././sonata/preferences.py:395
+msgid "Available options"
+msgstr "Tillgängliga alternativ"
+
+#: .././sonata/preferences.py:398
+msgid "Artist name"
+msgstr "Artistnamn"
+
+#: .././sonata/preferences.py:398
+msgid "Album name"
+msgstr "Albumnamn"
+
+#: .././sonata/preferences.py:398
+msgid "Track name"
+msgstr "Spårnummer"
+
+#: .././sonata/preferences.py:398
+msgid "Track number"
+msgstr "Spårnummer"
+
+#: .././sonata/preferences.py:398
+msgid "Disc Number"
+msgstr "Skivnummer"
+
+#: .././sonata/preferences.py:399
+msgid "File name"
+msgstr "Filnamn"
+
+#: .././sonata/preferences.py:399 .././sonata/streams.py:115
+msgid "Stream name"
+msgstr "Strömnamn"
+
+#: .././sonata/preferences.py:399
+msgid "Song length"
+msgstr "Låtlängd"
+
+#: .././sonata/preferences.py:399
+msgid "Elapsed time (title only)"
+msgstr "Speltid (endast titel)"
+
+#: .././sonata/preferences.py:403
+msgid "Info displayed only if all enclosed tags are defined"
+msgstr "Information visas endast om alla bifogade taggar har definierats"
+
+#: .././sonata/preferences.py:403
+msgid "Creates columns in the current playlist"
+msgstr "Skapar kolumner i den aktuella spellistan"
+
+#: .././sonata/preferences.py:417
+msgid "_MPD"
+msgstr "_MPD"
+
+#: .././sonata/preferences.py:418
+msgid "_Display"
+msgstr "_Visa"
+
+#: .././sonata/preferences.py:419
+msgid "_Behavior"
+msgstr "_Beteende"
+
+#: .././sonata/preferences.py:420
+msgid "_Format"
+msgstr "_Format"
+
+#: .././sonata/preferences.py:421
+msgid "_Extras"
+msgstr "Extrafunktioner"
+
+#: .././sonata/preferences.py:490
+msgid "New Profile"
+msgstr "Ny profil"
+
+#. Prompt user for playlist name:
+#: .././sonata/preferences.py:546
+msgid "Custom Artwork"
+msgstr "Anpassat omslag"
+
+#: .././sonata/preferences.py:548
+msgid "Artwork filename"
+msgstr "Filnamn för omslagsbild"
+
+#: .././sonata/streams.py:111
+msgid "Edit Stream"
+msgstr "Redigera ström"
+
+#: .././sonata/streams.py:113 .././sonata/streams.py:144
+msgid "New Stream"
+msgstr "Ny ström"
+
+#: .././sonata/streams.py:122
+msgid "Stream URL"
+msgstr "URL för ström"
+
+#: .././sonata/streams.py:144
+msgid "A stream with this name already exists. Would you like to replace it?"
+msgstr "En ström med det här namnet finns redan. Vill du ersätta den?"
+
+#: .././sonata/tagedit.py:52
+msgid "Taglib and/or tagpy not found, tag editing support disabled."
+msgstr ""
+"Taglib och/eller tagpy hittades inte, stöd för taggredigering har "
+"inaktiverats."
+
+#: .././sonata/tagedit.py:52 .././sonata/tagedit.py:56
+#: .././sonata/tagedit.py:80 .././sonata/tagedit.py:84
+#: .././sonata/tagedit.py:310 .././sonata/tagedit.py:424
+msgid "Edit Tags"
+msgstr "Redigera taggar"
+
+#: .././sonata/tagedit.py:56
+msgid "The path"
+msgstr "Sökvägen"
+
+#: .././sonata/tagedit.py:56
+msgid "does not exist. Please specify a valid music directory in preferences."
+msgstr "finns inte. Ange en giltig musikkatalog i inställningarna."
+
+#: .././sonata/tagedit.py:80
+msgid "File "
+msgstr "Fil"
+
+#: .././sonata/tagedit.py:80
+msgid " not found. Please specify a valid music directory in preferences."
+msgstr " finns inte. Ange en giltig musikkatalog i inställningarna."
+
+#: .././sonata/tagedit.py:84
+msgid "No music files with editable tags found."
+msgstr "Inga musikfiler med redigerbara taggar hittades."
+
+#: .././sonata/tagedit.py:163
+msgid "Comment"
+msgstr "Kommentar"
+
+#. Only show save all button if more than one song being edited.
+#: .././sonata/tagedit.py:181
+msgid "Save _All"
+msgstr "Spara _alla"
+
+#: .././sonata/tagedit.py:229
+msgid "Increment each selected music file, starting at track 1 for this file."
+msgstr "Öka varje markerad musikfil, börjar med spår 1 för den här filen."
+
+#: .././sonata/tagedit.py:231
+msgid "Apply to all selected music files."
+msgstr "Verkställ på alla markerade musikfiler."
+
+#: .././sonata/tagedit.py:310
+msgid "of"
+msgstr "av"
+
+#. FIXME: was (save_success and self.conn and self.status):
+#: .././sonata/tagedit.py:424
+msgid "Unable to save tag to music file."
+msgstr "Kunde inte spara tagg till musikfil."
+
+#: .././sonata/tagedit.py:493
+#, fuzzy
+msgid "Hide file path"
+msgstr "Filsökväg"
+
+#: .././sonata/tagedit.py:496
+#, fuzzy
+msgid "Show file path"
+msgstr "Filsökväg"
+
+#~ msgid ""
+#~ "PyGTK+ 2.10 or gnome-python-extras not found, system tray support "
+#~ "disabled."
+#~ msgstr ""
+#~ "PyGTK+ 2.10 eller gnome-python-extras hittades inte, stöd för "
+#~ "meddelandefält har inaktiverats."
+
+#~ msgid "Reset to Default"
+#~ msgstr "Återställ till standardvärden"
+
+#~ msgid "_New Playlist..."
+#~ msgstr "_Ny spellista..."
+
+#~ msgid "_Update Library"
+#~ msgstr "Uppdatera _bibliotek"
+
+#~ msgid "Notification"
+#~ msgstr "Notifiering"
+
+#~ msgid ""
+#~ "Python 2.5 or python-elementtree not found, audioscrobbler support "
+#~ "disabled."
+#~ msgstr ""
+#~ "Python 2.5 eller python-elementtree hittades inte, stöd för "
+#~ "audioscrobbler har inaktiverats."
+
+#~ msgid "Audioscrobbler Verification"
+#~ msgstr "Verifiering för Audioscrobbler"
+
+#~ msgid "Update library for selected item(s)"
+#~ msgstr "Uppdatera biblioteket för markerade poster"
+
+#~ msgid "_Shuffle"
+#~ msgstr "B_landa"
+
+#~ msgid "Toggle shuffle mode"
+#~ msgstr "Växla blandningsläge"
+
+#~ msgid "Not connected"
+#~ msgstr "Inte ansluten"
+
+#~ msgid "Press enter to search for these terms."
+#~ msgstr "Tryck Enter för att söka efter dessa termer."
+
+#~ msgid "Add new profile"
+#~ msgstr "Lägg till ny profil"
+
+#~ msgid "Remove current profile"
+#~ msgstr "Ta bort aktuell profil"
+
+#~ msgid "Play enqueued files on activate"
+#~ msgstr "Spela kölagda filer vid aktivering"
+
+#~ msgid ""
+#~ "Automatically play enqueued items when activated via double-click or "
+#~ "enter."
+#~ msgstr ""
+#~ "Spela automatiskt upp kölagda objekt när de aktiveras via dubbelklick "
+#~ "eller Enter."
+
+#~ msgid "Add selected song(s) or directory(s)"
+#~ msgstr "Lägg till markerade låt(ar) eller katalog(er)"
+
+#~ msgid "Replace with selected song(s) or directory(s)"
+#~ msgstr "Ersätt med markerade låt(ar) eller katalog(er)"
+
+#, fuzzy
+#~ msgid "Add selected song(s) to playlist queue"
+#~ msgstr "Lägg till markerade spellistor"
+
+#, fuzzy
+#~ msgid "Remove selected song(s) from playlist queue"
+#~ msgstr "Ta bort markerade låt(ar)?"
+
+#~ msgid "seconds"
+#~ msgstr "sekunder"
+
+#~ msgid "Song Info..."
+#~ msgstr "Låtinformation..."
+
+#~ msgid "Click to collapse the player"
+#~ msgstr "Klicka för att fälla in spelaren"
+
+#~ msgid "Click to expand the player"
+#~ msgstr "Klicka för att fälla ut spelaren"
+
+#~ msgid "_Song Info"
+#~ msgstr "_Låtinformation"
+
+#~ msgid "_Search..."
+#~ msgstr "_Sök..."
+
+#~ msgid "Remote only"
+#~ msgstr "Endast fjärr"
+
+#~ msgid "Remote, then local"
+#~ msgstr "Fjärr sedan lokal"
+
+#~ msgid "To save artwork as"
+#~ msgstr "För att spara omslagsbild som"
+
+#~ msgid "Artwork Verification"
+#~ msgstr "Verifiering av omslagsbild"
+
+#~ msgid "Switch to current playlist"
+#~ msgstr "Växla till aktuell spellista"
+
+#~ msgid "Toggle filter bar for jumping straight to track"
+#~ msgstr "Växla filterrad för hopp direkt till spår"
+
+#~ msgid "Song name"
+#~ msgstr "Låtnamn"
+
+#~ msgid "By"
+#~ msgstr "Av"
+
+#~ msgid "Enable"
+#~ msgstr "Aktivera"
+
+#~ msgid "Dis_play"
+#~ msgstr "Vis_ning"
+
+#~ msgid "songs."
+#~ msgstr "låtar."
