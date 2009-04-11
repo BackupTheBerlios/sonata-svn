@@ -1,0 +1,67 @@
+v1.6.2
+	disconnect/connect/reconnect ui weirdness
+	sonata freezes with gail/accessibility enabled during new library searching
+	translations - bold, commas for arabic (ahmad farghal email)
+	#3992: enabling/disabling outputs
+	#4370: number in playlist
+	contextual statusbar depending on tab opened? (michael email)
+	save to playlist.. default to selected files? pref?
+	tag editing - support for composer, disc
+	song queue (mpd-git will be bringing it back)
+	search results - show albums, artists, genres that match
+	window positioning weirdness when unwithdrawing app from systray
+	right-click on tab bar (michael email)
+	0.15 has input support for last.fm radio
+
+v1.7
+	remove libegg? statusicon provides everything in gtk 2.16, not yet in pygtk
+	albumartist tag for, e.g., VA albums; composer for classical
+	plugin support
+		- single instance, mmkeys (could remove dbus; faster on startup, less memory)
+		- artwork
+		- lyrics
+		- system tray
+		- audioscrobbler
+		- popup notification
+		- tag editing
+		- #2419 dynamic playlist (patch)
+		- #2454 Add as Next Track (patch)
+		- #4007 stop after track ('single' command in 0.15)
+		- #Zeroconf/avahi (patch)
+
+Future:
+	support for new idle command (waiting on python-mpd)
+	work with mpd's new "allow authenticated local users to add any local file to the playlist"
+		- waiting on python-mpd to implement unix socket paths
+		- dnd from a file manager (implemented and untested because of above)
+		- new library browsing mode to open any file?
+		  remember: no tags and implications for remote mpd users.
+	crop songs in current playlist?
+	mpd statistics
+	use GtkVolumeButton?
+	better playlist support (mpd 0.13+ only):
+		ability to view songs, reorder songs, remove songs, etc
+	lazy loading of the treeview
+		http://log.emmanuelebassi.net/documentation/lazy-loading/
+		http://blogs.gnome.org/jamesh/2006/03/31/re-lazy-loading/
+
+clean-up
+	extract duplicate code into functions, classes etc.
+	document interfaces and implementation
+	modularity:
+		- limit module size to 1000 lines
+		- limit dependencies between modules
+	style:
+		- rewrite unpythonic or complicated parts
+		- fix reasonable pychecker/pylint warnings
+	tests:
+		- write automated tests
+		- refactor code into parts that can be tested
+	use the logging module:
+		- add verbose and debug logging modes
+		- log to file if not running on console
+	exceptions:
+		- add class restrictions to most "except:" clauses
+		- add debug logging to most except clauses
+	threading:
+		- design, document, and implement a bug-free use of threads
